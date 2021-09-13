@@ -1,0 +1,44 @@
+{
+  "name": "locam",
+  "description": "A library for local control of Kasa Smart cameras.",
+  "version": "1.0.0",
+  "keywords": [
+    "Kasa",
+    "Smart",
+    "Camera",
+    "Local",
+    "Control",
+    "API",
+    "Smart Home",
+    "Library",
+    "Node"
+  ],
+  "author": "Stephen Mendez <git@stephenmendez.dev> (https://www.stephenmendez.dev)",
+  "bugs": "https://github.com/401unauthorized/locam/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/401unauthorized/locam.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "flow": "flow",
+    "start": "lib/index.js",
+    "build": "flow-remove-types src/ -d lib/",
+    "prepublish": "npm run build"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "needle": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://paypal.me/stephenmendez401"
+  },
+  "devDependencies": {
+    "flow-bin": "^0.159.0",
+    "flow-remove-types": "^2.159.0"
+  }
+}
