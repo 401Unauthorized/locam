@@ -5,7 +5,7 @@
 </div>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.1-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.2-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/node-%3E%3D12.0.0-blue.svg" />
   <a href="https://github.com/401unauthorized/locam#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
@@ -13,7 +13,7 @@
   <a href="https://github.com/401unauthorized/locam/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/401unauthorized/locam/blob/master/LICENSE" target="_blank">
+  <a href="https://github.com/401unauthorized/locam/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/401unauthorized/locam" />
   </a>
   <a href="https://twitter.com/stephenmendez_" target="_blank">
@@ -99,13 +99,13 @@ await c.send(disableMotionTracking);
 
 - Should not be considered 'production ready' or used in critical implementations
 - Subject to unpredictable changes which can break this implementation without notice
-- Some [security concerns & known vulnerabilities](https://github.com/401unauthorized/locam/blob/master/SECURITY.md) may exist and should be reviewed prior to using the package
+- Some [security concerns & known vulnerabilities](https://github.com/401unauthorized/locam/blob/main/SECURITY.md) may exist and should be reviewed prior to using the package
 
 ## 🛠 Setup & Getting Started
 
 ### Authentication
 
-> The current authentication approach used has some [security concerns](https://github.com/401unauthorized/locam/blob/master/SECURITY.md) which should be reviewed and acknowledged.
+> The current authentication approach used has some [security concerns](https://github.com/401unauthorized/locam/blob/main/SECURITY.md) which should be reviewed and acknowledged.
 
 The current implementation relies generating a token based on the `username` & `password` used for the Kasa Smart app.
 
@@ -115,7 +115,7 @@ It is imperative to store the values somewhere secure but accessible by your cod
 
 This file may be created to store persistant environmental variables.
 
-This file must be added `.gitignore` & never published. See [security concerns](https://github.com/401unauthorized/locam/blob/master/SECURITY.md) for more details.
+This file must be added `.gitignore` & never published. See [security concerns](https://github.com/401unauthorized/locam/blob/main/SECURITY.md) for more details.
 
 Example of storing information in this file:
 
@@ -139,7 +139,7 @@ This is a commonly used way to store persistant environmental variables.
 
 In your code, you can use the [dotenv](https://www.npmjs.com/package/dotenv) package to access the stored values at runtime.
 
-This file must be added `.gitignore` & never published. See [security concerns](https://github.com/401unauthorized/locam/blob/master/SECURITY.md) for more details.
+This file must be added `.gitignore` & never published. See [security concerns](https://github.com/401unauthorized/locam/blob/main/SECURITY.md) for more details.
 
 Example of storing information in this file:
 
@@ -413,7 +413,7 @@ console.log(process.env.USERNAME, process.env.PASSWORD);
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/401unauthorized/locam/issues). You can also take a look at the [contributing guide](https://github.com/401unauthorized/locam/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/401unauthorized/locam/issues). You can also take a look at the [contributing guide](https://github.com/401unauthorized/locam/blob/main/CONTRIBUTING.md).
 
 ## 😃 Show your support
 
@@ -428,7 +428,7 @@ Consider making a donation of any amount!
 ## 📝 License
 
 Copyright © 2021 Stephen Mendez<br />
-This project is [MIT](https://github.com/401unauthorized/locam/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/401unauthorized/locam/blob/main/LICENSE) licensed.
 
 ---
 [Kasa](https://www.kasasmart.com/us) is a registered trademark of TP-LINK Research America Corporation.

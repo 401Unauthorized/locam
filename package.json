@@ -1,7 +1,7 @@
 {
   "name": "locam",
   "description": "A library for local control of Kasa Smart cameras.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "Kasa",
     "Smart",
